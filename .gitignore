@@ -105,3 +105,8 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Node.js monorepo artifacts
+node_modules/
+**/node_modules/
+apps/server-node/dist/

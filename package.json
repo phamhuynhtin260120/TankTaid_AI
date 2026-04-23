@@ -1,0 +1,15 @@
+{
+  "name": "tanktaid-ai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Unity + Node.js multiplayer monorepo scaffold",
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev:server": "pnpm --filter @tanktaid/server-node dev",
+    "build:server": "pnpm --filter @tanktaid/server-node build",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
